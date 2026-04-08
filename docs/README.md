@@ -67,10 +67,10 @@ Após iniciar a aplicação, acesse no navegador:
 
 http://localhost:8080/hello
 
-### Ou via terminal:
+Ou via terminal:
 
 curl http://localhost:8080/hello
 
-### Resposta esperada:
+Resposta esperada:
 
 Sivec rodando!
