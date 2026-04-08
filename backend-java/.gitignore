@@ -1,0 +1,57 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# OS (Windows / Linux lixo)
+*.Zone.Identifier
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Arquivos de ambiente
+.env
+
+# Arquivos compactados
+*.zip
+*.tar
+*.gz
+
+# Java extras
+*.class
+*.jar
+*.war
+
+# Maven wrapper (opcional manter ou não)
+# .mvn/wrapper/maven-wrapper.jar
