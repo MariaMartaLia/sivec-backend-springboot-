@@ -1,4 +1,5 @@
 # 🚀 SIVEC - Backend de Gestão de Estoque com Spring Boot
+
 Sistema backend desenvolvido com foco em controle de estoque, concorrência e arquitetura profissional.
 
 ---
@@ -19,21 +20,21 @@ Simular um sistema real de controle de estoque, garantindo consistência de dado
 
 ## 🏗️ Arquitetura
 
-- API REST com Spring Boot
-- Camada de persistência com Spring Data JPA
-- Banco de dados PostgreSQL
-- Containerização com Docker
+- API REST com Spring Boot  
+- Camada de persistência com Spring Data JPA  
+- Banco de dados PostgreSQL  
+- Containerização com Docker  
 
 ---
 
 ## 🛠️ Tecnologias utilizadas
 
-- Java 17
-- Spring Boot
-- Spring Data JPA (Hibernate)
-- PostgreSQL
-- Docker
-- Maven
+- Java 17  
+- Spring Boot  
+- Spring Data JPA (Hibernate)  
+- PostgreSQL  
+- Docker  
+- Maven  
 
 ---
 
@@ -41,9 +42,9 @@ Simular um sistema real de controle de estoque, garantindo consistência de dado
 
 ### 🔧 Pré-requisitos
 
-- Java 17
-- Docker
-- Maven
+- Java 17  
+- Docker  
+- Maven  
 
 ---
 
@@ -57,11 +58,12 @@ docker run --name postgres-sivec \
 -p 5432:5432 \
 -d postgres
 
-▶️ 2. Rodar a aplicação
+### ▶️ 2. Rodar a aplicação
 
+```bash
 ./mvnw spring-boot:run
 
-🌐 3. Teste da API
+### 🌐 3. Teste da API
 
 Após iniciar a aplicação, acesse no navegador:
 
@@ -69,8 +71,9 @@ http://localhost:8080/hello
 
 Ou via terminal:
 
+```bash
 curl http://localhost:8080/hello
 
 Resposta esperada:
 
-Sivec rodando!
+Sivec rodando
