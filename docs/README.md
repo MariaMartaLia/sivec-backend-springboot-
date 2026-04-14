@@ -1,30 +1,42 @@
-# 🚀 SIVEC - Backend de Gestão de Estoque com Spring Boot
+# 🚀 SIVEC - Sistema de Controle de Estoque
 
-Sistema backend desenvolvido com foco em controle de estoque, concorrência e arquitetura profissional.
+API REST desenvolvida com Java e Spring Boot para gerenciamento de produtos.
 
----
+## 🧠 Tecnologias utilizadas
 
-## 🧠 Sobre o projeto
+- Java
+- Spring Boot
+- PostgreSQL
+- JPA / Hibernate
+- Maven
+- Git
 
-O SIVEC é um sistema backend que simula um ambiente real de gestão de estoque, permitindo operações simultâneas com consistência de dados.
+## 📦 Funcionalidades
 
-Este projeto foi desenvolvido com foco em boas práticas de backend, organização de código e integração com banco de dados.
-
----
-
-## 📌 Objetivo do projeto
-
-Simular um sistema real de controle de estoque, garantindo consistência de dados em cenários com múltiplas operações simultâneas.
-
----
+- Criar produtos (POST)
+- Listar produtos (GET)
 
 ## 🏗️ Arquitetura
 
-- API REST com Spring Boot  
-- Camada de persistência com Spring Data JPA  
-- Banco de dados PostgreSQL  
-- Containerização com Docker  
+O projeto segue arquitetura em camadas:
 
+- Controller → entrada da API
+- Service → lógica de negócio
+- Repository → acesso ao banco
+- Model → entidade
+
+## 🔗 Endpoints
+
+### POST /produtos
+Cria um novo produto
+
+### GET /produtos
+Lista todos os produtos
+
+## 🛠️ Como rodar o projeto
+
+```bash
+./mvnw spring-boot:run
 ---
 
 ## 🛠️ Tecnologias utilizadas
