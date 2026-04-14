@@ -1,8 +1,8 @@
-# 🚀 SIVEC - Sistema de Controle de Estoque
+# SIVEC - Sistema de Controle de Estoque
 
 API REST desenvolvida com Java e Spring Boot para gerenciamento de produtos.
 
-## 🧠 Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - Java
 - Spring Boot
@@ -11,12 +11,12 @@ API REST desenvolvida com Java e Spring Boot para gerenciamento de produtos.
 - Maven
 - Git
 
-## 📦 Funcionalidades
+## Funcionalidades
 
 - Criar produtos (POST)
 - Listar produtos (GET)
 
-## 🏗️ Arquitetura
+## Arquitetura
 
 O projeto segue arquitetura em camadas:
 
@@ -25,7 +25,7 @@ O projeto segue arquitetura em camadas:
 - Repository → acesso ao banco
 - Model → entidade
 
-## 🔗 Endpoints
+## Endpoints
 
 ### POST /produtos
 Cria um novo produto
@@ -33,13 +33,13 @@ Cria um novo produto
 ### GET /produtos
 Lista todos os produtos
 
-## 🛠️ Como rodar o projeto
+## Como rodar o projeto
 
 ```bash
 ./mvnw spring-boot:run
 ---
 
-## 🛠️ Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - Java 17  
 - Spring Boot  
@@ -50,9 +50,9 @@ Lista todos os produtos
 
 ---
 
-## ⚙️ Como rodar o projeto
+## Como rodar o projeto
 
-### 🔧 Pré-requisitos
+### Pré-requisitos
 
 - Java 17  
 - Docker  
@@ -60,7 +60,7 @@ Lista todos os produtos
 
 ---
 
-### 🔹 1. Subir o banco com Docker
+### 1. Subir o banco com Docker
 
 ```bash
 docker run --name postgres-sivec \
@@ -70,12 +70,12 @@ docker run --name postgres-sivec \
 -p 5432:5432 \
 -d postgres
 
-### ▶️ 2. Rodar a aplicação
+### 2. Rodar a aplicação
 
 ```bash
 ./mvnw spring-boot:run
 
-### 🌐 3. Teste da API
+### 3. Teste da API
 
 Após iniciar a aplicação, acesse no navegador:
 
