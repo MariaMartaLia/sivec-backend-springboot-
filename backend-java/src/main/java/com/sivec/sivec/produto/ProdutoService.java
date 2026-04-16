@@ -1,7 +1,5 @@
-package com.sivec.sivec.service;
+package com.sivec.sivec.produto;
 
-import com.sivec.sivec.model.Produto;
-import com.sivec.sivec.repository.ProdutoRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

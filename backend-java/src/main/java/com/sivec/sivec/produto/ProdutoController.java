@@ -1,7 +1,5 @@
-package com.sivec.sivec.controller;
+package com.sivec.sivec.produto;
 
-import com.sivec.sivec.model.Produto;
-import com.sivec.sivec.service.ProdutoService;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 

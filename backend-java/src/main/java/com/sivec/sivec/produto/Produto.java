@@ -1,4 +1,4 @@
-package com.sivec.sivec.model;
+package com.sivec.sivec.produto;
 
 import jakarta.persistence.*;
 
