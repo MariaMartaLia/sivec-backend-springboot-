@@ -1,33 +1,45 @@
-# 🚀 SIVEC - Backend de Gestão de Estoque com Spring Boot
+# SIVEC - Sistema de Controle de Estoque
 
-Sistema backend desenvolvido com foco em controle de estoque, concorrência e arquitetura profissional.
+API REST desenvolvida com Java e Spring Boot para gerenciamento de produtos.
 
+## Tecnologias utilizadas
+
+- Java
+- Spring Boot
+- PostgreSQL
+- JPA / Hibernate
+- Maven
+- Git
+
+## Funcionalidades
+
+- Criar produtos (POST)
+- Listar produtos (GET)
+
+## Arquitetura
+
+O projeto segue arquitetura em camadas:
+
+- Controller → entrada da API
+- Service → lógica de negócio
+- Repository → acesso ao banco
+- Model → entidade
+
+## Endpoints
+
+### POST /produtos
+Cria um novo produto
+
+### GET /produtos
+Lista todos os produtos
+
+## Como rodar o projeto
+
+```bash
+./mvnw spring-boot:run
 ---
 
-## 🧠 Sobre o projeto
-
-O SIVEC é um sistema backend que simula um ambiente real de gestão de estoque, permitindo operações simultâneas com consistência de dados.
-
-Este projeto foi desenvolvido com foco em boas práticas de backend, organização de código e integração com banco de dados.
-
----
-
-## 📌 Objetivo do projeto
-
-Simular um sistema real de controle de estoque, garantindo consistência de dados em cenários com múltiplas operações simultâneas.
-
----
-
-## 🏗️ Arquitetura
-
-- API REST com Spring Boot  
-- Camada de persistência com Spring Data JPA  
-- Banco de dados PostgreSQL  
-- Containerização com Docker  
-
----
-
-## 🛠️ Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - Java 17  
 - Spring Boot  
@@ -38,9 +50,9 @@ Simular um sistema real de controle de estoque, garantindo consistência de dado
 
 ---
 
-## ⚙️ Como rodar o projeto
+## Como rodar o projeto
 
-### 🔧 Pré-requisitos
+### Pré-requisitos
 
 - Java 17  
 - Docker  
@@ -48,7 +60,7 @@ Simular um sistema real de controle de estoque, garantindo consistência de dado
 
 ---
 
-### 🔹 1. Subir o banco com Docker
+### 1. Subir o banco com Docker
 
 ```bash
 docker run --name postgres-sivec \
@@ -58,12 +70,12 @@ docker run --name postgres-sivec \
 -p 5432:5432 \
 -d postgres
 
-### ▶️ 2. Rodar a aplicação
+### 2. Rodar a aplicação
 
 ```bash
 ./mvnw spring-boot:run
 
-### 🌐 3. Teste da API
+### 3. Teste da API
 
 Após iniciar a aplicação, acesse no navegador:
 
